@@ -1,8 +1,18 @@
 ---
-const platform = "github";
-const username = "withastro";
+const platform1 = "buymeacoffee";
+const platform2 = "ko-fi"
+const username = "breoutside";
+import Social from './social.astro';
 ---
 
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
 <footer>
-  <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+    <p>Support us on <a href={`https://www.${platform1}.com/${username}`}>{platform1}</a> or <a href={`https://www.${platform2}.com/${username}`}>{platform2}</a>!</p>
 </footer>
