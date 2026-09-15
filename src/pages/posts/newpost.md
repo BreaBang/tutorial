@@ -1,5 +1,5 @@
 ---
-layout: ../../src/layouts/markdownpostlayout.astro
+layout: ../../layouts/markdownpostlayout.astro
 title: Blog Post
 author: Astro Learner
 description: "This post will show up on its own!"
